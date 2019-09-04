@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Eduardo González @eduardoegb">
+    <link rel="shortcut icon" href="./assets/images/alecar-favicon.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <title>AlecarTours</title>
+  </head>
+  <body data-spy="scroll" data-target="#navbar" data-offset="57">
+    <!-- Header -->
+    <nav id="header" class="header-large navbar navbar-expand-lg navbar-dark blue-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img id="logo" class="header-large" src="assets/images/alecar-logo.svg" alt="ALECAR logo">
+          AlecarTours
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#main">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Nuestros servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#fleet">Flota</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contáctanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-pink" href="#" data-toggle="modal" data-target="#modalCompra">Cotiza ahora</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Main -->
+    <main id="main">
+      <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/images/balmaceda-serrano.jpg" alt="Balmaceda & Serrano">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/images/torres.png" alt="Torres Del Paine">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/images/pehoe.png" alt="Pehoe">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/images/puerto-natales.jpg" alt="Puerto Natales">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/images/dorotea-2.jpg" alt="Cerro Dorotea">
+          </div>
+          <div class="overlay">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-6 offset-md-6 text-center text-md-right">
+                  <h1>AlecarTours</h1>
+                  <p class="d-none d-md-block">
+                    AlecarTours, es una empresa  familiar con más de 7 años en el rubro de turismo y transporte de pasajeros en Patagonia
+                    Chilena y Argentina. Estamos ubicados en Puerto Natales, XII Región de Magallanes y Antártica Chilena, nuestra visión es
+                    entregar servicios de calidad, teniendo la preocupación para satisfacer los requerimientos de nuestros clientes
+                    cumpliendo con estándares de calidad y seguridad tanto en traslado de pasajeros, como en las excursiones.
+                  </p>
+                  <h4>¡AlecarTours te  invita a  vivir  una  experiencia inolvidable en la Patagonia!</h4>
+                  <a href="#" class="btn btn-outline-light" data-toggle="modal" data-target="#modalCompra">Contáctanos</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Services -->
+    <section id="services" class="mt-4">
+      <div class="separator"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center text-uppercase">
+            <small>Nuestros</small>
+            <h2>Servicios</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg mb-4">
+            <a class="nav-link service-link" href="#" data-toggle="modal" data-target="#modalInfo1">
+              <div class="card">
+                <img class="card-img-top" src="assets/images/torres.png" alt="Torres Del Paine">
+                <div class="card-body">
+                  <div class="badges">
+                    <span class="badge badge-warning">Por el día</span>
+                    <span class="badge badge-danger">Medio</span>
+                  </div>
+                  <h5 class="card-title">Excursión Trekking Base Torres</h5>
+                  <p class="card-text">Caminata por los senderos y una vista en primer plano de las imponentes Torres Del Paine.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg mb-4">
+            <a class="nav-link service-link" href="#" data-toggle="modal" data-target="#modalInfo2">
+              <div class="card">
+                <img class="card-img-top" src="assets/images/pehoe.png" alt="Torres Del Paine">
+                <div class="card-body">
+                  <div class="badges">
+                    <span class="badge badge-warning">Por el día</span>
+                    <span class="badge badge-success">Fácil</span>
+                  </div>
+                  <h5 class="card-title">Full Day Torres Del Paine</h5>
+                  <p class="card-text">Un recorrido completo por los puntos más importantes del Parque Nacional Torres Del Paine.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg mb-4">
+            <a class="nav-link service-link" href="#" data-toggle="modal" data-target="#modalInfo3">
+              <div class="card">
+                <img class="card-img-top" src="assets/images/dorotea.jpg" alt="Cerro Dorotea">
+                <div class="card-body">
+                  <div class="badges">
+                    <span class="badge badge-info">Medio día</span>
+                    <span class="badge badge-danger">Medio</span>
+                  </div>
+                  <h5 class="card-title">Cabalgata Cerro Dorotea</h5>
+                  <p class="card-text">Una de la mejores vistas panorámicas es la que se puede apreciar desde el Cerro Dorotea.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg mb-4">
+            <a class="nav-link service-link" href="#" data-toggle="modal" data-target="#modalInfo4">
+              <div class="card">
+                <img class="card-img-top" src="assets/images/balmaceda-serrano.jpg" alt="Balmaceda">
+                <div class="card-body">
+                  <div class="badges">
+                    <span class="badge badge-warning">Por el día</span>
+                    <span class="badge badge-success">Fácil</span>
+                  </div>
+                  <h5 class="card-title">Navegación Balmaceda & Serrano</h5>
+                  <p class="card-text">Te invitamos a conocer el increíble mundo de los los glaciares Balmaceda y Serrano.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Fleet -->
+    <section id="fleet">
+      <div class="separator"></div>
+      <div class="row">
+        <div class="col text-center text-uppercase">
+          <small>Nuestra</small>
+          <h2>Flota</h2>
+        </div>
+      </div>
+      <div id="carousel-fleet" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/images/fl-buses.jpg" alt="Buses">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/images/fl-transit.jpg" alt="Transit">
+          </div>
+          <!-- <div class="carousel-item">
+            <img class="d-block w-100" src="assets/images/fl-ford.png" alt="Ford">
+          </div> -->
+          <div class="overlay">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-6 offset-md-6 text-center text-md-right">
+                  <!-- <h1>Nuestra flota</h1> -->
+                  <p class="d-none d-md-block">
+                    AlecarTours cuenta con una flota de buses totalmente actualizada y equipada, con capacidades de 17, 32, 44 y 48 asientos para cumplir con las necesidades de nuestros clientes
+                    tanto en servicios regulares como privados.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cotiza -->
+    <section id="contact" class="pt-3 pb-3">
+      <div class="separator"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col text-uppercase text-center">
+            <small>Reserva ahora</small>
+            <h2>Contáctanos</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            Cotiza con nosotros, consulta <abbr data-toggle="tooltip" title="regulares o privados">nuestros servicios</abbr>.
+            Cuéntanos a dónde deseas ir.
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+            <form action="sendmail.php" method="POST">
+              <div class="form-row">
+                <div class="form-group col-12 col-md-6">
+                  <input type="text" class="form-control" placeholder="Nombre*" name="firstname" required="required">
+                </div>
+                <div class="form-group col-12 col-md-6">
+                  <input type="text" class="form-control" placeholder="Apellido*" name="lastname" required="required">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <input type="email" class="form-control" placeholder="Correo electrónico*" name="email" required="required">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-12 col-md-6">
+                  <input type="text" class="form-control" placeholder="País de residencia" name="country">
+                </div>
+                <div class="form-group col-12 col-md-6">
+                  <input type="tel" class="form-control" placeholder="Teléfono" name="phone">
+                </div>
+              </div>
+              <div class="form-row">
+                  <div class="form-group col">
+                    <input type="text" class="form-control" placeholder="Asunto*" name="subject" required="required">
+                  </div>
+                </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <textarea name="text" class="form-control form-control-lg" placeholder="Comentarios" name="comments"></textarea>
+                  <small class="form-text text-muted">
+                    *Datos obligatorios
+                  </small>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <input type="submit" value="Enviar" name="submit" class="btn btn-submit btn-block" id="submit-button">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="separator-sm"></div>
+        <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg mb-4">
+              <div class="card" id="contact-data">
+                <div class="row">
+                  <img src="./assets/images/alecar-favicon.png" alt="" id="contact-alacar-logo">
+                  <p>AlecarTours</p>
+                </div>
+                <div class="row">
+                  <img src="./assets/images/phone.png" alt="">
+                  <a href="tel:+56612410060"><p>+56 61 241 0060</p></a>
+                </div>
+                <div class="row">
+                  <img src="./assets/images/whatsapp.png" alt="">
+                  <a href="https://wa.me/56964723729"><p>+56 9 6472 3729</p></a>
+                </div>
+                <div class="row">
+                  <img src="./assets/images/email.png" alt="">
+                  <a href="mailto:alecatours@gmail.com"><p>alecatours@gmail.com</p></a>
+                </div>
+                <div class="row">
+                  <img src="./assets/images/location.png" alt="">
+                  <a target="_blank" href="https://goo.gl/maps/yicGG4T2GSYsUPrE9">
+                    <p>Bernardo O'Higgins N° 632<br>Puerto Natales, Chile</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg mb-4">
+              <div class="card">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2471.2134530113417!2d-72.50374758433423!3d-51.72913107967222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdafe81c8dcfb07d%3A0xfa14725d8d313af0!2sBernardo+O&#39;Higgins+632%2C+Puerto+Natales%2C+Natales%2C+Regi%C3%B3n+de+Magallanes+y+de+la+Ant%C3%A1rtica+Chilena!5e0!3m2!1ses-419!2scl!4v1564325996846!5m2!1ses-419!2scl" max-width="500" width="auto" height="246" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="separator"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="pb-4 pt-4">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12 col-lg">
+            <a href="#">AlecarTours</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="mailto:alecatours@gmail.com">Contáctanos</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a target="_blank" href="https://goo.gl/maps/yicGG4T2GSYsUPrE9">Ubícanos</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="#">Términos y condiciones</a>
+          </div>
+          <div class="col-12 col-lg">
+            <img src="./assets/images/transbank.png" alt="" style="max-width: 200px">
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalCompra" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Cotiza ahora</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="sendmail.php" method="POST">
+              <div class="form-row">
+                <div class="form-group col-12 col-md-6">
+                  <input type="text" class="form-control" placeholder="Nombre*" name="firstname" required="required">
+                </div>
+                <div class="form-group col-12 col-md-6">
+                  <input type="text" class="form-control" placeholder="Apellido*" name="lastname" required="required">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <input type="email" class="form-control" placeholder="Correo electrónico*" name="email" required="required">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-12 col-md-6">
+                  <input type="text" class="form-control" placeholder="País de residencia" name="country">
+                </div>
+                <div class="form-group col-12 col-md-6">
+                  <input type="tel" class="form-control" placeholder="Teléfono" name="phone">
+                </div>
+              </div>
+              <div class="form-row">
+                  <div class="form-group col">
+                    <input type="text" class="form-control" placeholder="Asunto*" name="subject" required="required">
+                  </div>
+                </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <textarea name="text" class="form-control form-control-lg" placeholder="Comentarios" name="comments"></textarea>
+                  <small class="form-text text-muted">
+                    *Datos obligatorios
+                  </small>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <input type="submit" value="Enviar" name="submit" class="btn btn-submit btn-block" id="submit-button">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalInfo1" tabindex="-1" role="definition" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Excursión Trekking Base Torres</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Descripción</h5>
+                <small class="card-text">Salida desde Puerto Natales a las 07:00am y traslado directo
+                  a sector Las Torres donde llegaremos a “Estancia Cerro Paine”, punto de partida del
+                  sendero. Allí recibiremos una charla previa instructiva por parte de nuestro guía.
+                  Inicio de la caminata.
+                  <br>
+                  Tomamos el camino en dirección al Valle y tras 10 minutos de caminata, caminaremos
+                  sobre un antiguo puente colgante que cruza el rio Ascencio. Cerca de 150 metros más
+                  adelante, aparece una bifurcación: a la izquierda conduce a la Base Las Torres.
+                  Luego sigue un zigzag de marcada pendiente y vegetación escasa por una hora. Se
+                  continúa el ascenso y se pasa junto a otra vertiente y luego de 45 minutos se alcanza
+                  el Camping Chileno en la rivera opuesta del Rio Ascencio, a la sombra de un bosque de
+                  lengas, con pendiente moderada, cruzando varias vertientes que caen desde el
+                  Almirante Nieto. Tras cerca de una hora y 10 minutos desde el camping chileno, a 700
+                  msnm., se alcanza el pie de la morrena que da acceso al mirador. Desde este punto, el
+                  sendero aumenta su pendiente.
+                  <br>
+                  Primero va junto a una vertiente y bajo la sombra de los pequeños arboles ubicados al
+                  borde de la morrena, pero más arriba el sendero se pierde como tal y se debe
+                  continuar ascendiendo entre las rocas, algunas de las cuales están marcadas para
+                  mostrar la ruta. Tras cerca de media hora desde el letrero a 700 msnm, se alcanza el
+                  extremo este de la laguna, desde donde se tiene una maravillosa vista de las tres
+                  torres (Central, monzino, Dagostini) y de los cerros Peineta y Nido de Cóndores. Luego
+                  de descansar y almorzar en este contexto escénico extraordinario y único en el
+                  planeta, comenzamos nuestro retorno por el mismo sendero hasta llegar al punto de
+                  partida, donde estará esperando nuestro conductor para regresar al finalizar el día a
+                  Puerto Natales.
+                </small>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Incluye</h5>
+                <small class="card-text">
+                  <ul>
+                    <li>Transporte compartido</li>
+                    <li>Guía bilingüe ingles/español</li>
+                    <li>Seguro de asiento</li>
+                    <li>Snack (agua, galleta, barra de cereal)</li>
+                  </ul>
+                </small>
+              </div>
+              <div class="card-body">
+                  <h5 class="card-title">No incluye</h5>
+                  <small class="card-text">
+                    <ul>
+                      <li>Propinas</li>
+                      <li>Alimentación no mencionada</li>
+                      <li>Seguro contra accidentes</li>
+                      <li>Bebidas alcohólicas</li>
+                      <li>Entrada Parque Nacional Torres del Paine</li>
+                    </ul>
+                  </small>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalInfo2" tabindex="-1" role="definition" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Full Day Torres Del Paine</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Descripción</h5>
+                <small class="card-text">Salida desde su hotel con destino a la Cueva del Milodón ubicada a 24 kilómetros al norte
+                  de Puerto Natales. Este Monumento Natural está formado por tres cavernas y un
+                  conglomerado rocoso denominado “Silla del Diablo”. Antes de llegar a la cueva, el camino
+                  de acceso pasa por la “Silla del Diablo”, nombre que proviene de la imaginación popular
+                  dado a una estructura rocosa con aspecto de sillón de la cual se cuenta que fue “asiento”
+                  del Milodón y que la leyenda transformó en “diablo”.<br>
+                  Al concluir la visita se continúa por el nuevo camino de acceso al Parque Nacional Torres
+                  del Paine pudiendo observar en el trayecto, la Laguna Sofía, la Cordillera Prat, el Lago
+                  Porteño, el Cerro Mesa, el Lago del Toro, la Sierra del Toro y la Sierra Ballena. A
+                  continuación, es posible admirar el bellísimo paisaje que nos rodea desde el Mirador del
+                  Lago Grey (vista hacia el Glaciar Grey, el Macizo del Paine y el Lago del Toro). Un par de
+                  Kilómetros más adelante es posible observar los Cuernos del Paine llegando a la
+                  bifurcación tomando el camino sobre el Puente Serrano para continuar con destino al
+                  sector del Lago Grey. En este sector podremos realizar una agradable caminata por la
+                  orilla del Lago grey y si las condiciones nos ayudan es posible acceder hasta el mirador de
+                  la Península Grey.<br>
+                  De regreso, en el estacionamiento de la Guardería retomamos la ruta para regresar a un
+                  restaurante ubicado en el sector para tomar un momento de descanso con la opción de
+                  almorzar. (Almuerzo no incluido en la tarifa).
+                  Al concluir este reparador descanso comenzamos la segunda etapa de nuestra visita al
+                  Parque Nacional Torres del Paine dirigiéndonos al sector del Salto Grande. Visitaremos el
+                  Mirador del Lago Nordenskjold y continuaremos disfrutado de diversas vista en nuestra
+                  ondulante ruta que nos acerca poco a poco al sector del Laguna Amarga, sin antes visitar la
+                  Cascada Paine, bellísimo lugar en donde se puede apreciar la descarga de aguas lechosas
+                  que vienen de los glaciares a través del Rio Paine y que desaguan finalmente en el Seno de
+                  Ultima Esperanza, después de un prolongado recorrido por el corazón del Parque Nacional.
+                  Después de admirar este grato espectáculo regresaremos a la ciudad de Puerto Natales
+                  pasando por el Mirador del Lago Sarmiento llegando al caer la tarde y trayendo consigo
+                  una experiencia inolvidable.
+                </small>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Incluye</h5>
+                <small class="card-text">
+                  <ul>
+                    <li>Transporte compartido</li>
+                    <li>Guía bilingüe ingles/español</li>
+                    <li>Seguro de asiento</li>
+                    <li>Snack (agua, galleta, barra de cereal, chocolate)</li>
+                  </ul>
+                </small>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">No incluye</h5>
+                <small class="card-text">
+                  <ul>
+                    <li>Propinas</li>
+                    <li>Alimentación no mencionada</li>
+                    <li>Seguro contra accidentes</li>
+                    <li>Bebidas alcohólicas</li>
+                    <li>Entradas Cueva del Milodón y Parque Nacional Torres del Paine</li>
+                  </ul>
+                </small>
+              </div>
+            </div>
+            <br>
+            <div class="alert alert-warning" role="alert">
+              <h5>Recomendaciones</h5>
+              Llevar ropa de abrigo, impermeables, lentes de sol, bloqueador solar y zapatos cómodos.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalInfo3" tabindex="-1" role="definition" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Cabalgata Cerro Dorotea</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Descripción</h5>
+                <small class="card-text">Una de la mejores vistas panorámicas es la que se puede apreciar
+                    desde el Cerro Dorotea, pero mejor aún si el recorrido hacia la
+                    cima se hace a caballo, pasando por bosques de lenga y calafate.
+                    Una vez en la cumbre, desde el mirador ubicado a 800 m.s.n.m. aproximadamente,
+                    se pueden ver todas las montañas y glaciares
+                    que rodean el fiordo Última Esperanza y sus alrededores, además
+                    de una increíble vista de Puerto Natales.<br><br>
+                    <strong>Lugar</strong> Cerro Dorotea, Puerto Natales<br>
+                    <strong>Salidas</strong> De lunes a sábado menos 25 de diciembre ni 1 de enero<br>
+                    <strong>Horarios</strong> 10:00 a.m. o 03:00 p.m. desde su alojamiento en Puerto Natales<br>
+                    <strong>Duración</strong> 3 horas aprox.<br>
+                    <strong>Dificultad</strong> Para todo público <small>*Dificultad media para niños o adultos tercera edad</small><br>
+                </small>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Incluye</h5>
+                <small class="card-text">
+                  <ul>
+                    <li>Guía “gaucho”</li>
+                    <li>Once típica magallánica (té o café con pan
+                        amasado o sopaipillas fritas)</li>
+                  </ul>
+                </small>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">No incluye</h5>
+                <small class="card-text">
+                  <ul>
+                    <li>Transporte</li>
+                    <li>Propinas</li>
+                    <li>Alimentación no mencionada</li>
+                    <li>Seguro contra accidentes</li>
+                    <li>Bebidas alcohólicas</li>
+                  </ul>
+                </small>
+              </div>
+            </div>
+            <br>
+            <div class="alert alert-warning" role="alert">
+              <h5>Recomendaciones</h5>
+              Llevar ropa de abrigo, impermeables, lentes de sol, bloqueador solar y zapatos cómodos.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalInfo4" tabindex="-1" role="definition" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Navegación Balmaceda & Serrano</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Descripción</h5>
+                <small class="card-text">Te invitamos a conocer el increíble mundo de los fiordos. Esta
+                    excursión sale desde el centro de Puerto Natales en buses que los
+                    llevan hacia la localidad de Puerto Bories. Aquí se aborda el barco
+                    que los llevara durante unas 3 horas hasta los glaciares Balmaceda
+                    y Serrano, por el Fiordo de Ultima Esperanza. En el trayecto
+                    podrás avistar hermosas montañas, cascadas, estancias y avifauna
+                    patagónica. Cuando se llega a Puerto Toro se realiza una caminata
+                    facil por frondoso bosque de coihues y ñirres hasta los pies del
+                    Glaciar Serrano. Posteriormente se regresa a Puerto Natales pero
+                    antes hay otra parada en la Estancia Perales para tomar un
+                    almuerzo típico de la zona que consiste en parrillada de cordero.
+                    El regreso a Puerto Natales se estima a las 17:30 horas.
+                    <br><br>
+                    <strong>Lugar</strong>  Parque Nacional Bernardo O'Higgins<br>
+                    <strong>Salidas</strong> Todo el año. Desde el 1° de mayo al 31 de agosto: sólo
+                    domingos y salidas confirmadas según demanda<br>
+                    <strong>Horarios</strong> 07:30 a.m. o 05:30 p.m.<br>
+                    <strong>Duración</strong> 10 horas<br>
+                    <strong>Dificultad</strong> Apto para todo público
+                </small>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Incluye</h5>
+                <small class="card-text">
+                    Transporte desde el centro hasta el muelle, navegación, entrada
+                    al Parque Nacional Bernardo O Higgins, café o té de bienvenida a bordo,
+                    aperitivo Whisky con hielo del glaciar o jugo, caminata en Laguna Serrano,
+                    visita y almuerzo en Estancia Perales, guía.
+                </small>
+                <small class="form-text text-muted">
+                  *El almuerzo consiste en: carbonada (sopa de carne y verduras), asado de
+                  cordero magallanico a las brasas con papas naturales, ensalada de lechuga y
+                  tomates, postre, vino o bebida. O alternativa vegetariana (avisarnos).
+                </small>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">No incluye</h5>
+                <small class="card-text">
+                    Pick-up desde su alojamiento
+                </small>
+              </div>
+            </div>
+            <br>
+            <div class="alert alert-warning" role="alert">
+                La navegación está sujeta a las condiciones climáticas. En caso de
+                cancelación se hará una reprogramación, y de no ser es posible se hará la
+                devolución.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
