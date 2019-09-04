@@ -28,6 +28,16 @@ body {
   height: 40px;
 }
 
+@media screen and (max-width: 768px) {
+  .separator {
+    height: 76px;
+  }
+  
+  .separator-sm {
+    height: 10px;
+  }
+}
+
 #services .card {
   cursor: pointer;
 }
